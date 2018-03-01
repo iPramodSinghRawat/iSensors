@@ -13,10 +13,16 @@
 		1266C5082046A85D00E75D37 /* iOSSensors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1266C5062046A85D00E75D37 /* iOSSensors.xcdatamodeld */; };
 		1266C50A2046A85D00E75D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1266C5092046A85D00E75D37 /* Assets.xcassets */; };
 		1266C50D2046A85D00E75D37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1266C50B2046A85D00E75D37 /* LaunchScreen.storyboard */; };
+		12EF6DFB2047A2CA00BCDC25 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF6DFA2047A2CA00BCDC25 /* MenuViewController.swift */; };
+		12EF6DFD2047A56C00BCDC25 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF6DFC2047A56C00BCDC25 /* BaseViewController.swift */; };
+		12EF6DFF2047CF5100BCDC25 /* MotionActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF6DFE2047CF5100BCDC25 /* MotionActivityVC.swift */; };
+		12EF6E012047D6E400BCDC25 /* AltimeterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF6E002047D6E400BCDC25 /* AltimeterVC.swift */; };
+		12EF6E032047DEFB00BCDC25 /* ProximitySensorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF6E022047DEFB00BCDC25 /* ProximitySensorVC.swift */; };
+		12EF6E052047E61100BCDC25 /* BatteryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EF6E042047E61100BCDC25 /* BatteryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1266C4FC2046A85D00E75D37 /* iOSSensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1266C4FC2046A85D00E75D37 /* iSensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1266C4FF2046A85D00E75D37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1266C5012046A85D00E75D37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1266C5042046A85D00E75D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		1266C5092046A85D00E75D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1266C50C2046A85D00E75D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1266C50E2046A85D00E75D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EF6DFA2047A2CA00BCDC25 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		12EF6DFC2047A56C00BCDC25 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		12EF6DFE2047CF5100BCDC25 /* MotionActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionActivityVC.swift; sourceTree = "<group>"; };
+		12EF6E002047D6E400BCDC25 /* AltimeterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimeterVC.swift; sourceTree = "<group>"; };
+		12EF6E022047DEFB00BCDC25 /* ProximitySensorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximitySensorVC.swift; sourceTree = "<group>"; };
+		12EF6E042047E61100BCDC25 /* BatteryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +60,7 @@
 		1266C4FD2046A85D00E75D37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1266C4FC2046A85D00E75D37 /* iOSSensors.app */,
+				1266C4FC2046A85D00E75D37 /* iSensors.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,11 +69,17 @@
 			isa = PBXGroup;
 			children = (
 				1266C4FF2046A85D00E75D37 /* AppDelegate.swift */,
+				12EF6DFC2047A56C00BCDC25 /* BaseViewController.swift */,
+				12EF6DFA2047A2CA00BCDC25 /* MenuViewController.swift */,
 				1266C5012046A85D00E75D37 /* ViewController.swift */,
+				12EF6DFE2047CF5100BCDC25 /* MotionActivityVC.swift */,
+				12EF6E002047D6E400BCDC25 /* AltimeterVC.swift */,
+				12EF6E022047DEFB00BCDC25 /* ProximitySensorVC.swift */,
+				12EF6E042047E61100BCDC25 /* BatteryVC.swift */,
 				1266C5032046A85D00E75D37 /* Main.storyboard */,
-				1266C5092046A85D00E75D37 /* Assets.xcassets */,
 				1266C50B2046A85D00E75D37 /* LaunchScreen.storyboard */,
 				1266C50E2046A85D00E75D37 /* Info.plist */,
+				1266C5092046A85D00E75D37 /* Assets.xcassets */,
 				1266C5062046A85D00E75D37 /* iOSSensors.xcdatamodeld */,
 			);
 			path = iOSSensors;
@@ -84,7 +102,7 @@
 			);
 			name = iOSSensors;
 			productName = iOSSensors;
-			productReference = 1266C4FC2046A85D00E75D37 /* iOSSensors.app */;
+			productReference = 1266C4FC2046A85D00E75D37 /* iSensors.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,9 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12EF6DFD2047A56C00BCDC25 /* BaseViewController.swift in Sources */,
 				1266C5022046A85D00E75D37 /* ViewController.swift in Sources */,
+				12EF6E032047DEFB00BCDC25 /* ProximitySensorVC.swift in Sources */,
 				1266C5082046A85D00E75D37 /* iOSSensors.xcdatamodeld in Sources */,
+				12EF6DFF2047CF5100BCDC25 /* MotionActivityVC.swift in Sources */,
+				12EF6E012047D6E400BCDC25 /* AltimeterVC.swift in Sources */,
 				1266C5002046A85D00E75D37 /* AppDelegate.swift in Sources */,
+				12EF6E052047E61100BCDC25 /* BatteryVC.swift in Sources */,
+				12EF6DFB2047A2CA00BCDC25 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +305,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67574QBU4Z;
 				INFOPLIST_FILE = iOSSensors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = iPramodSinghRawat.it.iOSSensors;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = iPramodSinghRawat.it.iSensors;
+				PRODUCT_NAME = iSensors;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,9 +321,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67574QBU4Z;
 				INFOPLIST_FILE = iOSSensors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = iPramodSinghRawat.it.iOSSensors;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = iPramodSinghRawat.it.iSensors;
+				PRODUCT_NAME = iSensors;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
